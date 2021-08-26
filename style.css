@@ -143,3 +143,23 @@ h3 {
         padding: 10px 75px;
     }
 }
+
+@media (max-width: 768px) {
+    #container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-1, .text-3 {
+        line-height: 2.5rem;
+    }
+
+    #description, #subscription, #why {
+        height: 80%;
+    }
+
+    button {
+        padding: 20px 150px;
+        
+    }
+}
