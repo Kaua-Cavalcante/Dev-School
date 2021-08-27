@@ -158,8 +158,34 @@ h3 {
         height: 80%;
     }
 
+    #subscription {
+        border-radius: 0;
+    }
+
+    #why {
+        border-radius: 0 0 5px 5px;
+    }
+
     button {
         padding: 20px 150px;
-        
+    }
+}
+
+@media (max-width: 425px) {
+    #container {
+        height: 100vh;
+        width: 100vw;
+    }
+}
+
+@media (max-width: 375px) {
+    button {
+        padding: 20px 135px;
+    }
+}
+
+@media (max-width: 320px) {
+    button {
+        padding: 20px 110px;
     }
 }
